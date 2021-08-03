@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  background: url("photo.jpg")	;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: rgba(7, 7, 7, 0.7);
+
+}
+
+.title
+{
+  
+  text-align: center;
+
+  
+}
+.title h3
+{
+  font-size: 50px;
+color: #bbb;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.title hr
+{
+  width: 500px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+margin-left : 400px;
+    margin-right : 400px;
+    margin-bottom :60px;
+
+}
+
+.wrapper{
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.wrapper .item{
+  width: 330px;
+  height: 400px;
+  margin: 20px;
+    background-color: #121212;
+  padding: 20px 20px 65px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.wrapper .item h3{
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+
+.wrapper .item h2{
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.wrapper .item.item_1 h3{
+  color: #bbb;
+}
+
+
+
+.wrapper .item.item_1 h2{
+  color: #bbb;
+}
+
+
+.wrapper .item img{
+  display: block;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 3px auto;
+    margin-bottom: 10px;
+
+}
+
+.wrapper .item .info p{
+  font-size: 18px;
+  color: #a3a3a3;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.wrapper .item .price{
+  margin-top: 20px;
+}
+
+.wrapper .item .price sub,
+.wrapper .item .price sup{
+  font-size: 10px;
+}
+
+
+.wrapper .item .btn{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 170px;
+  padding: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; 
+}
+
+.wrapper .item.item_1 .btn{
+  background: #bbb;
+}
+
+
+.wrapper .item .btn a{
+  display: block;
+  color: #121212;
+}
